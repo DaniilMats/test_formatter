@@ -10,7 +10,7 @@ class TestTagTag:
     integration_type = 'TAGTAG'
     ok = '[CENTER][COLOR=#00A650]ОК[/COLOR][/CENTER]'
     fail = '[CENTER][COLOR=#FF0000]FAILED[/COLOR][/CENTER]'
-    wait = '[CENTER][COLOR=#FFF100]WAITING[/COLOR][/CENTER]'
+    wait = '[CENTER][COLOR=#F7941D]WAITING[/COLOR][/CENTER]'
 
     def __init__(self, company):
         self.integration = f"[TR][TD][/TD][TD][CENTER][B]{self.integration_type}[/B][/CENTER][/TD][/TR]\n"

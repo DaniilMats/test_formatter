@@ -14,7 +14,7 @@ class OrganicTestFormatter:
                     elif self.values[key] == 'n':
                         table += f"[TR][TD][B]{key}[/B][/TD][TD][COLOR=#FF0000]FAILED[/COLOR][/TD][/TR]\n"
                     else:
-                        table += f"[TR][TD][B]{key}[/B][/TD][TD][COLOR=#FFF100]WAITING[/COLOR][/TD][/TR]\n"
+                        table += f"[TR][TD][B]{key}[/B][/TD][TD][COLOR=#F7941D]WAITING[/COLOR][/TD][/TR]\n"
                 elif key in ['Cookie', 'Cart', 'Thank you page', 'Statistics', 'Status']:
                     table += f"[TR][TD][B]{key}[/B][/TD][TD][URL={value}]Cкриншот[/URL][/TD][/TR]\n"
                 elif key in ['Requests', 'Linking', 'Linking2(after login)', 'Linking thank you']:
